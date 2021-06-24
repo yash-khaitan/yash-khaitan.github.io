@@ -1,0 +1,275 @@
+header nav ol {
+  display: flex;
+  padding: 5px;
+  position: absolute;
+  z-index: 1;
+  top: 5%;
+  left: 2%;
+  background:transparent !important;
+}
+
+header nav ol li {
+  animation: bulbanimation 2s ease-out 4s 1 forwards;
+  background:transparent !important;
+  display: inline;
+  opacity: 0;
+  font-size: 17px;
+  letter-spacing: 1.5px;
+}
+
+header nav ol li a {
+  background:transparent !important;
+  color: white;
+  text-decoration: none;
+  padding: 7px 15px;
+}
+
+li:hover {
+  transform: translateY(-4px);
+}
+a:hover{
+  color: #7da0ef;
+
+}
+.background {
+  background-color: #221e1f;
+  /* background: linear-gradient(to right, #bdc3c7, #2c3e50); */
+  background-image: url(Images/bulbc.jpeg);
+  background-repeat: no-repeat;
+  background-size: 15vw;
+  background-position: 94% 0%;
+  width: 100vw;
+  height: 100vh;
+  opacity: 0;
+  animation: bulbanimation 3s ease-out 1.5s 1 forwards;
+  position: fixed;
+}
+
+@keyframes bulbanimation {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+.container {
+  /* background-color: #000; */
+  background: transparent;
+  display: flex;
+  position: absolute;
+  top: 6%;
+  width: 60vw;
+  height: 85vh;
+  align-items: center;
+  left: 5%;
+  flex-wrap: wrap;
+  opacity: 0;
+  margin: 0%;
+  justify-content: center;
+  padding: 0%;
+}
+.animation {
+  animation: bulbanimation 3.5s ease-in 1.9s 1 forwards
+    /* container-bgc 3s ease-out 1.5s 1 forwards */;
+}
+
+@keyframes container-bgc {
+  0% {
+    background-color: #000000;
+  }
+  100% {
+    background: #231f20;
+  }
+}
+
+.box {
+  width: 202px;
+  height: 200px;
+  display: inline-block;
+  margin: 5% 2%;
+  position: relative;
+  border-radius: 2% 6% 5% 4% / 1% 1% 2% 4%;
+  border-top-right-radius: 20px;
+  text-align: center;
+  border: 1px solid #b043bd;
+  background: linear-gradient(#e66465, #9198e5);
+}
+
+.box1 {
+  animation: border1 4s ease-out 1.5s 1 forwards;
+}
+.box2 {
+  animation: border2 4s ease-out 1.5s 1 forwards;
+}
+.box3 {
+  animation: border3 4s ease-out 1.5s 1 forwards;
+}
+.box4 {
+  animation: border4 4s ease-out 1.5s 1 forwards;
+}
+.box5 {
+  animation: border5 4s ease-out 1.5s 1 forwards;
+}
+.box6 {
+  animation: border6 4s ease-out 1.5s 1 forwards;
+}
+
+@keyframes border1 {
+  0% {
+    box-shadow: 0px;
+  }
+  100% {
+    box-shadow: -7px 5px 9px -3px #7da0ef;
+  }
+}
+
+@keyframes border2 {
+  0% {
+    box-shadow: 0px;
+  }
+  100% {
+    box-shadow: -7px 5px 9px -3px #a181b6;
+  }
+}
+
+@keyframes border3 {
+  0% {
+    box-shadow: 0px;
+  }
+  100% {
+    box-shadow: -7px 5px 9px -3px #8cb681;
+  }
+}
+
+@keyframes border4 {
+  0% {
+    box-shadow: 0px;
+  }
+  100% {
+    box-shadow: -7px 5px 9px -3px #4f81a5;
+  }
+}
+
+@keyframes border5 {
+  0% {
+    box-shadow: 0px;
+  }
+  100% {
+    box-shadow: -7px 5px 9px -3px #af6565;
+  }
+}
+
+@keyframes border6 {
+  0% {
+    box-shadow: 0px;
+  }
+  100% {
+    box-shadow: -7px 5px 9px -3px #b69b81;
+  }
+}
+
+
+
+.box1,
+.box2,
+.box3 {
+  margin: 4% 4% 7% 3%;
+}
+.box4,
+.box5,
+.box6 {
+  margin: 5% 4% 7% 3%;
+}
+
+.box a {
+  background-color: transparent !important;
+}
+
+.box a img {
+  width: 100%;
+  height: 100%;
+  background-color: transparent !important;
+  border-radius: 2% 6% 5% 4% / 1% 1% 2% 4%;
+  /* border-top-right-radius: 17px; */
+}
+
+.box a .text {
+  position: relative;
+  display: inline;
+  top: -65%;
+}
+
+.text h2 {
+  /* display: inline; */
+  opacity: 0;
+  font-family: cursive;
+  font-size: x-large;
+  letter-spacing: 3.3px;
+  background-color: transparent !important;
+  /* background: linear-gradient(#e66465, #9198e5); */
+  font-weight: bolder;
+}
+
+.text1 h2 {
+  color: #7da0ef;
+}
+.text2 h2 {
+  color: #a181b6;
+}
+.text3 h2 {
+  color: #8cb681;
+}
+.text4 h2 {
+  color: #4f81a5;
+}
+.text5 h2 {
+  color: #af6565;
+}
+.text6 h2 {
+  color: #b69b81;
+}
+
+.box:hover h2 {
+  opacity: 1;
+  filter: none;
+}
+
+.box:hover img {
+  filter: blur(1.5px);
+}
+
+.box a {
+  text-decoration: none;
+}
+/* 
+footer{
+  height: 7vh;
+  width: 100vw;
+  position:sticky;
+  bottom: 0%;
+  z-index: 7;
+} */
+
+@media screen and (max-width: 675px) {
+  .container {
+    top: 12%;
+    left: 3%;
+  }
+  header nav ol {
+    top: 5%;
+    left: 3%;
+  }
+  header nav ol li a {
+    padding: 8px 17px;
+  }
+
+  .box a img {
+    filter: blur(0.5px);
+  }
+  .text h2 {
+    opacity: 1;
+  }
+}
