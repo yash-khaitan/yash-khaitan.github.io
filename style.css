@@ -251,14 +251,7 @@ a:active{
 .box a {
   text-decoration: none;
 }
-/* 
-footer{
-  height: 7vh;
-  width: 100vw;
-  position:sticky;
-  bottom: 0%;
-  z-index: 7;
-} */
+
 
 @media screen and (max-width: 675px) {
   .container {
