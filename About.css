@@ -50,7 +50,7 @@ li:hover {
 a:hover{
     color: #225ad9;
 }
-  
+
 a:active{
     color: #7da0ef;
 }
@@ -62,7 +62,7 @@ a:active{
         margin-left:10vw ;
     }
 }
-  
+
 
 @media all and (min-width:1200px) and (max-width:1400px){
     header nav ol{
@@ -75,7 +75,7 @@ a:active{
         margin-left:22vw ;
     }
 }
-  
+
 .About{
     width: 70vw;
     max-width: 550px;
@@ -85,5 +85,18 @@ a:active{
     padding: 17px;
     font-family: 'Quicksand', sans-serif;
     font-size: large;
+}
+
+.skillsList{
+    padding: 4px 1px;
+}
+
+.inParaLink{
+    text-decoration: none;
+    color: #225ad9;
+}
+
+.inParaLink:hover{
+    color: #0d328a;
 }
 
