@@ -6,6 +6,10 @@
     padding: 0;
 }
 
+body{
+    overflow-x: hidden;
+}
+
 header{position: absolute;
     top: 0%;
     left: 0%;
@@ -38,11 +42,6 @@ header nav ol li a {
     background-color: rgb(162,155,155,51%);    
 }
 
-/* header nav ol li a img{
-    width: 10px;
-    height:10px;
-} */
-
 li:hover {
     transform: translateY(-4px);
 }
@@ -54,8 +53,6 @@ a:hover{
 a:active{
     color: #7da0ef;
 }
-
-/* margin:1px 1px 1px ; */
 
 @media all and (min-width:837px) and (max-width:1200px) {
     header nav ol{
@@ -87,16 +84,30 @@ a:active{
     font-size: large;
 }
 
-.skillsList{
-    padding: 4px 1px;
+.About h2{text-align: center;
+    font-size: 42px;
+    letter-spacing: 6px;}
+
+#infiniteMath{
+    display: block;
+    margin: auto;
+    width:400px
 }
 
-.inParaLink{
+p i{
+    font-size: medium;
+}
+
+p sup a{
     text-decoration: none;
-    color: #225ad9;
+    color: blue;
 }
 
-.inParaLink:hover{
-    color: #0d328a;
+p{
+    font-weight: 500;
 }
 
+#Footnote1{
+    font-weight: 600;
+
+}
