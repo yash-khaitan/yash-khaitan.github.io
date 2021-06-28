@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500&display=swap');
+
+*{
+    /* background-color: rgb(173,167,167); */
+    background-color: rgb(162, 158, 158);
+    margin: 0;
+    padding: 0;
+    font-family: 'Quicksand', sans-serif;
+}
+
+body{
+    overflow-x: hidden;
+}
+
+header{
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    background-color: rgb(164,156,156);
+    width: 100vw;
+}
+
+header nav{
+    background-color: rgb(162,155,155,51%);   
+}
+    
+header nav ol {
+    display: flex;
+    padding: 5px;
+    margin: 12px 1% 1%;
+    background-color: rgb(162,155,155,51%);    
+}
+
+header nav ol li {
+    display: inline;
+    font-size: 17px;
+    letter-spacing: 1.5px;
+    background-color: rgb(162,155,155,51%);    
+}
+
+header nav ol li a {
+    color: white;
+    text-decoration: none;
+    padding: 7px 15px;
+    background-color: rgb(162,155,155,51%);    
+}
+
+li:hover {
+    transform: translateY(-4px);
+}
+  
+header nav ol li a:hover{
+    color: #225ad9;
+}
+
+@media all and (min-width:837px) and (max-width:1200px) {
+    header nav ol{
+        margin-left:10vw ;
+    }
+}
+
+
+@media all and (min-width:1200px) and (max-width:1400px){
+    header nav ol{
+        margin-left:20vw ;
+    }
+}
+
+@media all and (min-width:1400px) {
+    header nav ol{
+        margin-left:22vw ;
+    }
+}
+
+.container{
+    margin: 13vh auto 0px;
+    display: flex;
+    width:84vw;
+    height: 70vh;
+    /* border: 2px solid white; */
+}
+
+.blog{
+    width: 20%;
+    height: 45%;
+    /* border: 1px solid grey; */
+    background-color: rgb(159, 152, 152);
+}
+.blog a{
+    text-decoration: none;
+    color: rgb(78, 78, 165);
+}
+
+.blog:hover .text{
+    color: rgb(46, 46, 201);
+    transform: translateY(-3px);
+}
+
+.text{
+    text-align: center;
+    margin:10px 10px 0px 10px;
+    letter-spacing: 1px;
+    font-weight: 700;
+    background-color: rgb(164, 153, 153);
+}
