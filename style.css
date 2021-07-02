@@ -271,7 +271,6 @@ display: none;
 
   header nav ol li  {
     text-align: left;
-  
   }
   
   header nav ol li a {
@@ -282,10 +281,6 @@ display: none;
   .box{
     width: 247px;
     height: 208px;
-  }
-
-  .box a img {
-    filter: blur(0.5px);
   }
   .text h2 {
     opacity: 1;
