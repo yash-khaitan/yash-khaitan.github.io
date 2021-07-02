@@ -38,11 +38,6 @@ header nav ol li a {
     background-color: rgb(162,155,155,51%);    
 }
 
-/* header nav ol li a img{
-    width: 10px;
-    height:10px;
-} */
-
 li:hover {
     transform: translateY(-4px);
 }
