@@ -73,7 +73,7 @@ a:active{
     }
 }
 
-.About{
+.container{
     width: 70vw;
     max-width: 550px;
     height: auto;
@@ -84,14 +84,15 @@ a:active{
     font-size: large;
 }
 
-.About h2{text-align: center;
+.container h2{text-align: center;
     font-size: 42px;
     letter-spacing: 6px;}
 
 #infiniteMath{
     display: block;
     margin: auto;
-    width:400px
+    width:250px;
+    
 }
 
 p i{
