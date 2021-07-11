@@ -64,7 +64,7 @@ function Hit(that) {
 function UserTurn(UserThat) {
   userBox = UserThat.id;
   UserDiv = document.getElementById(`${userBox}`);
-  UserDiv.innerHTML = `<img src=${markArr.userMark} alt="Your Mark">`;
+  UserDiv.innerHTML = `<img src=${markArr.userMark} alt="">`;
 }
 
 function PushOutUserDivs() {
@@ -91,7 +91,7 @@ function ComputerTurn() {
     document.getElementById(`${computerBox}`).style.pointerEvents = "none";
     document.getElementById(
       `${computerBox}`
-    ).innerHTML = `<img src=${markArr.computerMark} alt="Computer Mark">`;
+    ).innerHTML = `<img src=${markArr.computerMark} alt="">`;
   } else {
     document.getElementById("choice").innerHTML =
       "Its A Draw! Let's have Another Match by clicking Reset.";
