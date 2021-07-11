@@ -1,0 +1,105 @@
+#choice{
+    display: flex;
+    border: 2px solid black;
+    width: 300px;
+    height: 150px;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    font-size: xx-large;
+    text-align: center;
+}
+
+#cross{
+    display: flex;
+    border: 2px solid rgb(172, 164, 172);
+    width: 50%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    background-image: url(cross.png);
+    background-size:100% 100% ;
+    cursor: pointer;
+}
+
+
+#circle {
+    display: flex;
+    border: 2px solid rgb(172, 164, 172);
+    width: 50%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    background-image: url(circle.png);
+    background-size:100% 100% ;
+    cursor: pointer;
+}
+
+.score{
+  display: flex;
+  text-align: center;
+  width: 200px;
+  margin: auto;
+  height: 100px;
+}
+
+#userscore,#computerscore{
+    width: 50%;
+    height: 100%;
+}
+
+.border-black{
+    border: 2px solid black;
+}
+
+#board{
+    display: grid;
+    height: 47vh;
+    width: 30vw;
+    min-width: 350px;
+    margin:2% auto;
+    /* border: 2px solid black; */
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    background-color: rgb(172, 164, 172);
+}
+
+
+.box:not(:nth-child(n + 7)) {
+    border-bottom:2px dashed black;
+}
+
+.box:not(:nth-child(3n)) {
+    border-right:2px dashed black;
+}
+  
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.box img {
+    width: 70%;
+    height: 70%;
+}
+#reset{
+    margin: auto;
+    text-align: center;
+}
+
+#resetButton{
+    margin: 10px auto;
+    height: 40px;
+    width: 120px;
+    background-color: rgb(17, 106, 223);
+    border-radius: 5px;
+    border: 2px solid black;
+    pointer-events: auto;
+}
+
+#resetButton:hover{
+    cursor: pointer;
+    background-color: rgb(5, 71, 156);
+}

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Tic Tac Toe. Let's play">
+    <link rel="stylesheet" href="TicTacToe.css" />
+    <title>Tic-Tac-Toe</title>
+  </head>
+  <body>
+    <h1 style="text-align: center;" >Lets play Tic Tac Toe</h1>
+    <div id="choice">
+      <div id="cross" onclick="Choose(this)"></div>
+      <div id="circle" onclick="Choose(this)"></div>
+    </div>
+    <div id="reset">
+      <button id="resetButton" type="button" value="reset" onclick="Reload()">Reset The Game</button>
+    </div>
+    <!-- <div class="score border-black">
+      <div id="userscore"></div>
+      <div id="computerscore"></div> 
+    </div> -->
+    <div id="board">
+      <div class="box" id="box1" onclick="Hit(this)"></div>
+      <div class="box" id="box2" onclick="Hit(this)"></div>
+      <div class="box" id="box3" onclick="Hit(this)"></div>
+      <div class="box" id="box4" onclick="Hit(this)"></div>
+      <div class="box" id="box5" onclick="Hit(this)"></div>
+      <div class="box" id="box6" onclick="Hit(this)"></div>
+      <div class="box" id="box7" onclick="Hit(this)"></div>
+      <div class="box" id="box8" onclick="Hit(this)"></div>
+      <div class="box" id="box9" onclick="Hit(this)"></div>
+    </div>
+
+    <script src="TicTacToe.js"></script>
+  </body>
+</html>

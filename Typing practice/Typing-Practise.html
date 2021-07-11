@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Practise touch typing with songs lyrics.">
+    <link rel="stylesheet" href="style.css" />
+    <title>Typing-Practise-With-Songs</title>
+  </head>
+  <body>
+    <!-- <div id="content"></div> -->
+    <div class="instruction">
+      <h1 style="text-align: center;">Typing Practise with songs lyrics</h1>
+      <ul>
+        <li><b>Select a song</b></li>
+        <div id="buttons">
+          <button type="button" class="button" id="Memories" onclick="Content(this)">
+            Memories
+          </button>
+          <button type="button" class="button" id="KunFayaKun" onclick="Content(this)">
+            Kun Faya Kun
+          </button>
+          <button type="button" class="button" id="SeeYouAgain" onclick="Content(this)">
+            See You Again
+          </button>
+        </div>
+        <li><b>Ignore the first semicolan `"` </b>in the first box (lyrics box)</li>
+        <li><b>Start writing in the 2nd box</b></li>
+        <li><b>Kill the training 😡</b></li>
+        <li><button type="reset" class="button" id="Reset" onclick="Reset()">Reset</button></li>
+        
+        
+      </ul>  
+    
+    </div>
+    <div id="content">
+      <textarea
+        name=""
+        id="lyrics"
+        cols="30"
+        rows="10"
+        placeholder="Select a Song"
+        spellcheck="false"
+      ></textarea>
+    </div>
+
+    <div class="writing">
+      <!-- <input type="text" spellcheck="false"  placeholder="Type Here" id="practise" oninput="check()"> -->
+      <textarea
+        name=""
+        rows="10"
+        cols="30"
+        spellcheck="false"
+        id="practise"
+        placeholder="Type Here"
+        oninput="check() "
+      ></textarea>
+    </div>
+    <div id="mistake"></div>
+    
+
+    <script src="script.js"></script>
+  </body>
+</html>
