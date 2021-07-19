@@ -62,7 +62,7 @@ About part ---------------------------------------------------------------------
   border-left: 2px solid black;
   border-right: 2px solid black;
   width: 95vw;
-  height: 60px;
+  height: auto;
 }
 
 /* 
@@ -140,7 +140,7 @@ Projects -----------------------------------------------------------------------
 
 .Writing,
 .Software,
-.Threads {
+.The20sSaga {
   margin-bottom: 70px;
 }
 
@@ -161,7 +161,7 @@ Projects -----------------------------------------------------------------------
   padding: 10px 20px 10px 30px;
 }
 
-.W-project p {
+.W-project p , .T-project p, .S-project p {
   color: #808080;
 }
 
@@ -181,7 +181,7 @@ Projects -----------------------------------------------------------------------
   border-right: 2px solid rgb(235, 14, 14);
 }
 
-.project-Threads {
+.project-The20sSaga {
   color: rgb(180, 48, 180);
 }
 
@@ -202,11 +202,13 @@ Footer -------------------------------------------------------------------------
 
 .all-footer-links {
   width: 55.5%;
-  justify-content: space-between;
+  flex-flow: column;
+  margin: auto;
 }
 
 .page-links {
   margin-left: 10px;
+  justify-content: center;
 }
 
 .page-links
@@ -218,8 +220,12 @@ ul{
 }
 
 .PageLinksItem {
-  color: rgb(206, 204, 211, 90%) !important;
+  color: rgb(238,238,238) !important;
   padding-right: 5px;
+}
+
+.PageLinksItemHead{
+color: black !important;
 }
 
 .PageLinksItem:hover {
@@ -229,6 +235,7 @@ ul{
 .icons-links {
   text-align: center;
   align-items: flex-end;
+ justify-content: center; 
 }
 
 .SiteFooter div a {
