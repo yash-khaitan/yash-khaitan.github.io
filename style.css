@@ -140,7 +140,7 @@ Projects -----------------------------------------------------------------------
 
 .Writing,
 .Software,
-.Threads {
+.The20sSaga {
   margin-bottom: 70px;
 }
 
@@ -161,7 +161,7 @@ Projects -----------------------------------------------------------------------
   padding: 10px 20px 10px 30px;
 }
 
-.W-project p {
+.W-project p , .T-project p, .S-project p {
   color: #808080;
 }
 
@@ -181,7 +181,7 @@ Projects -----------------------------------------------------------------------
   border-right: 2px solid rgb(235, 14, 14);
 }
 
-.project-Threads {
+.project-The20sSaga {
   color: rgb(180, 48, 180);
 }
 
