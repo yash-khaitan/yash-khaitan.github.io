@@ -62,7 +62,7 @@ About part ---------------------------------------------------------------------
   border-left: 2px solid black;
   border-right: 2px solid black;
   width: 95vw;
-  height: 60px;
+  height: auto;
 }
 
 /* 
