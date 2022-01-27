@@ -108,6 +108,9 @@ Skills -------------------------------------------------------------------------
 /* 
 Projects ---------------------------------------------------------------------------------------------------------------------------------
 */
+.project-React {
+  color: rgb(70, 180, 48);
+}
 
 .projects {
   margin-bottom: 20px;
@@ -347,7 +350,7 @@ Blog-Infinite Math =============================================================
   margin-bottom: 5px;
 }
 
-.Blog-Infinite-Math,.Blog-Tail-Event{
+.Blog-Infinite-Math,.Blog-Tail-Event,.Blog-Better-Reader{
   padding: 10px;
 }
 
